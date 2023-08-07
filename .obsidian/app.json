@@ -1,0 +1,9 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./",
+  "showInlineTitle": false
+}
