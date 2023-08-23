@@ -13,6 +13,8 @@ if destination_dir is None:
     Tk().withdraw()
     destination_dir = askdirectory(title='Select your Obsidian vault', initialdir = "./", mustexist=True)
 
+destination_dir = destination_dir + "/" if destination_dir[-1] != "/" else destination_dir
+
 destination_dir = destination_dir + ".obsidian/" if ".obsidian" not in destination_dir else destination_dir
 
 source_dir = ".obsidian/"
