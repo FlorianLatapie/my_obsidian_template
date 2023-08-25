@@ -1,8 +1,9 @@
 [
+  "table-editor-obsidian",
+  "cmdr",
   "dataview",
-  "obsidian-map-view",
   "obsidian-languagetool-plugin",
   "obsidian-linter",
-  "table-editor-obsidian",
+  "obsidian-map-view",
   "obsidian-advanced-slides"
 ]
