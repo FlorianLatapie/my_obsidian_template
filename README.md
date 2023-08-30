@@ -6,14 +6,14 @@
 pip3 install -r requirements.txt
 ```
 
-### Importing from here
+### Update this repo
 
 ```sh
-python3 import_.obsidian.pyw -p <vault_path>
+python3 update_here.pyw -p <vault_path>
 ```
 
-### Use this template
+### Use this template on your vault
 
 ```sh
-python3 apply_.obsidian_template.pyw -p <vault_path>
+python3 update_your_vault.pyw -p <vault_path>
 ```
