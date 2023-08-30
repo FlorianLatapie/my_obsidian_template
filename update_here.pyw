@@ -30,6 +30,7 @@ try :
     shutil.copytree(source_dir, destination_dir, dirs_exist_ok=True)
     os.remove(destination_dir+"workspace.json")
     os.remove(destination_dir+"workspace-mobile.json")
+    os.remove(destination_dir+"graph.json")
     print("Done!")
 except Exception as e:
     print('Directory not copied.')
