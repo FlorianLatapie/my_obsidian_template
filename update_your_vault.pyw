@@ -25,7 +25,15 @@ try :
         input("Press Enter to continue...")
     
     shutil.copytree(source_dir, destination_dir, dirs_exist_ok=True)
-    print("Done!")
+
+    if args.path is not None:
+        print("Done!")
+    else:
+        from tkinter import Tk
+        from tkinter import messagebox
+        root = Tk()
+        root.withdraw()
+        messagebox.showinfo("Done!", "Your vault has been updated, you can now close this window.")
 except Exception as e:
     print('Directory not copied.')
     print(e)

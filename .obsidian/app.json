@@ -28,8 +28,7 @@
     "editor:move-caret-down",
     "editor:move-caret-right",
     "editor:toggle-keyboard",
-    "editor:configure-toolbar",
-    "obsidian-git:push"
+    "editor:configure-toolbar"
   ],
   "mobilePullAction": "obsidian-linter:lint-file",
   "pdfExportSettings": {

@@ -31,7 +31,16 @@ try :
     os.remove(destination_dir+"workspace.json")
     os.remove(destination_dir+"workspace-mobile.json")
     os.remove(destination_dir+"graph.json")
-    print("Done!")
+    
+    if args.path is not None:
+        print("Done!")
+    else:
+        # tkinter messagebox "Done!"
+        from tkinter import Tk
+        from tkinter import messagebox
+        root = Tk()
+        root.withdraw()
+        messagebox.showinfo("Done!", "This repo has been updated, you can now close this window and commit the changes.")
 except Exception as e:
     print('Directory not copied.')
     print(e)
