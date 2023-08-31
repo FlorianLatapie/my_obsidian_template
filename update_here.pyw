@@ -27,7 +27,10 @@ try :
         print("importing from " + source_dir + " to my_obsidian_template/" + destination_dir)
         input("Press Enter to continue...")
 
+    shutil.rmtree(destination_dir, ignore_errors=True)
+
     shutil.copytree(source_dir, destination_dir, dirs_exist_ok=True)
+
     os.remove(destination_dir+"workspace.json")
     os.remove(destination_dir+"workspace-mobile.json")
     os.remove(destination_dir+"graph.json")
