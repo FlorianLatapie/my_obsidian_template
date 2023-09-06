@@ -38,7 +38,6 @@ try :
     if args.path is not None:
         print("Done!")
     else:
-        # tkinter messagebox "Done!"
         from tkinter import Tk
         from tkinter import messagebox
         root = Tk()
